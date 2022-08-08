@@ -1,0 +1,345 @@
+
+@media only screen and (max-width: 1200px){
+    #menuContent div a {
+        font-size: 1.5em;
+    }
+
+    .skloCit {
+        font-size: 1em;
+    }
+
+    .skloText, .skloText2 {
+        font-size: 1.3em;
+    }
+
+    .memberName, .graphTitle, .graphTitlew, .graphTitleB {
+        font-size: 1.5em;
+    }
+
+    .skloCitintext1, .skloCitintext2 {
+        font-size: 1.3em;
+        width:80%;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+    .itemTitle {
+        font-size: 1.2em;
+    }
+
+    .itemDesc {
+        font-size: 1em;
+    }
+    
+    .sourceBtn {
+        font-weight: 600;
+        padding: 6% 10%;
+    }
+
+    #copyrightText{
+        font-size: 0.8em;
+    }
+
+    table th {
+        font-size: 1.2em;
+    }
+    
+    table td {
+        font-size: 1em;
+    }
+    
+    .tab button {
+        font-size: 1em;
+    }
+    
+    .tabB button {
+        font-size: 1em;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 960px){
+    .mainBodyItem {
+        column-count: 2;
+    }
+
+    .card {
+        margin-bottom: 10%;
+        width: 98%;
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+    .listText li{
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+}
+
+
+@media only screen and (max-width: 720px){
+    .parallax{
+        height: 500px;
+    }
+    .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8  {
+        min-height: 500px !important;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #menuContent {
+        padding-top: 2.5%;
+        padding-left: 5%
+    }
+
+    #menuContent div a {
+        margin-bottom: 7%;
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 3vmax;
+        right: 2vmax;
+        font-size: 3em;
+     }
+
+    .skloCit {
+        font-size: 0.8em;
+    }
+
+    .centButtondiv {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .greenBtn {
+        font-weight: 500;
+    }
+
+    .skloText, .skloText2, .memberName {
+        font-size: 1em;
+    }
+
+    .graphTitle, .graphTitleB, .graphTitlew {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .skloCitintext1, .skloCitintext2 {
+        font-size: 1em;
+        width:80%;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+    table th {
+        font-size: 1em;
+    }
+    
+    table td {
+        font-size: 0.8em;
+    }
+    
+    .tab button {
+        font-size: 0.8em;
+    }
+    
+    .tabB button {
+        font-size: 0.8em;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 660px){
+    .mainBodyItem {
+        column-count: 1;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+
+
+    #headerDescription {
+        padding-top: 25%;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    #menuContent {
+        padding-top: 10%;
+        padding-left: 5%
+    }
+
+    .teamContainer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .teamContainer div {
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .teamContainer div p {
+        margin-bottom: 0;
+    }
+
+    .greenBtn {
+        padding: 4% 6%;
+    }
+
+    .sectionContainer, .sectionContainer2 {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: auto;
+    }
+
+
+    .textContainer, .textContainer2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .tabB {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: auto;
+    }
+
+    .listText li{
+        font-size: 1.0em;
+        line-height: 1.5em;
+    }
+
+    #copyrightText{
+        font-size: 0.6em;
+    }
+
+    .externalImageContainer {
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+    #toTopBtn{
+        bottom: 4%;
+        right: 2%;
+        font-size: 4vmax;
+        color: rgb(216, 125, 125);
+        }
+
+    #copyrightText{
+        font-size: 0.5em;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-height: 420px){
+    #menuContent div a {
+        font-size: 1.2em;
+    }
+
+
+}
+
+
+
+@media (hover: hover) and (pointer: fine) {
+    .closebtn:hover {
+        color: rgba(40,89,75,1)
+    }
+
+    #menuContent div a:hover {
+        color: rgba(40,89,75,1)
+    }
+    
+    .closebtn:hover {
+        cursor: pointer; 
+    }
+
+    .greenBtn:hover {
+        background-color: whitesmoke;
+        color: black;
+        border-color: whitesmoke;
+        
+    }
+
+    .teamMember img:hover {
+        box-shadow: 0 0 30px whitesmoke, 0 0 5px pink;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    i:hover {
+        scale: 1.2;
+        transition: ease-in-out;
+        transition-duration: 0.4s;
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+    }
+
+    .sourceBtn:hover {
+        background-color: rgb(40,89,75);
+        color: whitesmoke;
+        border-color: whitesmoke;
+        
+    }
+
+    .sourceBtnw:hover {
+        background-color: whitesmoke;
+        color: rgb(15, 18, 17);
+        border-color: whitesmoke;
+        
+    }
+
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    .tabB button:hover {
+        background-color: rgb(40,89,75);
+    }
+
+    .intextLinkbl:hover {
+        text-decoration: none;
+        color: rgb(216, 125, 125);
+    }
+
+    .intextLink:hover {
+        text-decoration: none;
+        color: rgb(40,89,75);
+    }
+
+
+
+
+
+
+
+}
